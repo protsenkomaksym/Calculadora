@@ -110,7 +110,7 @@ namespace Calculadora
                 double ingreso;
                 if (double.TryParse(valor, out ingreso))
                 {
-                    resultado = ((resultado == 0) ? 1. : resultado) * ingreso;
+                    resultado = ((resultado == 0) ? 1 : resultado) * ingreso;
                 }
             }
 
